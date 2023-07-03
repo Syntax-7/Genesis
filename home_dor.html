@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Genesis</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headline">
+            Project Genesis
+        </div>
+        <div class="profile-picture"></div>
+        <div class="container-with-padding">
+            <div class="left-container">
+                <div class="about-me" onclick="toggleParagraph('left-container')">About Me</div>
+            </div>
+            <div class="right-container">
+                <div class="about-me" onclick="toggleParagraph('right-container')">About My Project</div>
+            </div>
+        </div>
+        <div class="about-paragraph" id="left-container-paragraph">Experienced System Administrator with a demonstrated history of working in the information technology and services industry.<br>
+            Finished Devops course at "DevOps Experts".<br>
+            Currently working on home projects to sharpen devops related knowledge</div>
+        <div class="about-paragraph" id="right-container-paragraph">Project GENESIS is about 2 machines uploaded to AWS with a load-balancer via TERRAFORM.<br>
+            The load-balancer shifts between the machines each time it gets accessed to, while the indicator is the different landing page presented.</div>
+    </div>
+    <script src="fn.js"></script>
+</body>
+</html>
+
